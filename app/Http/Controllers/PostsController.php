@@ -127,6 +127,18 @@ class PostsController extends Controller
      */
     public function destroy($id)
     {
-        //
+        //find the Post
+
+        $post = Post::find($id);
+
+        $post->delete();
+
+        //redirect
+
+        session::flash('success', 'Post was successfully deleted.');
+
+        return redirect()->route('posts.index');
+
+
     }
 }
