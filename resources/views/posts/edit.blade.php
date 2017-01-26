@@ -4,11 +4,12 @@
 
 @section('content')
 
-  <div class="row"
-  {!! Form::model($post, ['route' => ['posts.update', $post->id]]) !!}
+  <div class="row">
+  {!! Form::model($post, ['route' => ['posts.update', $post->id], 'method' => 'PUT']) !!}
   <div class="col-md-8">
-    {{ Form::label('title', 'Title:')}}
-        {{ Form::text('title', null, ["class" => 'form-control input-lg'])}}
+        {{ Form::label('title', 'Title:') }}
+        {{ Form::text('title', null, ["class" => 'form-control input-lg']) }}
+
         {{ Form::label('body', "Body:", ['class' => 'form-spacing-top']) }}
         {{ Form::textarea('body', null, ['class' => 'form-control']) }}
   </div>
@@ -32,13 +33,13 @@
            </div>
 
            <div class="col-sm-6">
-             {!! Html::linkroute('posts.update', 'Save Changes', array($post->id), array('class' => 'btn btn-success btn-block')) !!}
+             {{ Form::submit('Save Changes', array('class' => 'btn btn-success btn-block')) }}
+                 {!! Form::close() !!}
+          </div>
+        </div>
+      </div>
+     </div>
 
-
-       </div>
-       {!! Form::close() !!}
-
-     </div> <!-- end of form-->
-    </div>
+    </div><!-- end of form-->
 
 @endsection
