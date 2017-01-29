@@ -17,8 +17,9 @@ class RedirectIfAuthenticated
      */
     public function handle($request, Closure $next, $guard = null)
     {
+      // if user is not logged in, will be directed to login page 
         if (Auth::guard($guard)->check()) {
-            return redirect('/home');
+            return redirect('login');
         }
 
         return $next($request);

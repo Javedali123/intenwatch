@@ -8,6 +8,11 @@ use Session;
 
 class PostsController extends Controller
 {
+
+  public function __construct()
+  {
+      $this->middleware('auth');
+  }
     /**
      * Display a listing of the resource.
      *
@@ -106,7 +111,7 @@ class PostsController extends Controller
           $this->validate($request, array(
             'title' => 'required|max:255',
             'body' => 'required'
-          ));  
+          ));
 
         } else {
         $this->validate($request, array(
