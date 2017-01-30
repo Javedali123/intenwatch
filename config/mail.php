@@ -56,8 +56,8 @@ return [
     */
 
     'from' => [
-        'address' => env('MAIL_FROM_ADDRESS', 'hello@example.com'),
-        'name' => env('MAIL_FROM_NAME', 'Example'),
+        'address' => env('MAIL_FROM_ADDRESS', '5ebf361400-2c7d5e@inbox.mailtrap.io'),
+        'name' => env('MAIL_FROM_NAME', 'Laravel'),
     ],
 
     /*

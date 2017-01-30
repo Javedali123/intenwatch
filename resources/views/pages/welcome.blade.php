@@ -6,9 +6,9 @@
   <div class="row">
       <div class="col-md-12">
         <div class="jumbotron">
-          <h1>Welcome to my Blog</h1>
+          <h1>Welcome to my first Laravel Project</h1>
           <p class="lead">Thank You for visiting. This is my first Laravel Website</p>
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">Popular Post Post</a></p>
+          <p><a class="btn btn-primary btn-lg" href="#" role="button">Popular Post</a></p>
         </div>
       </div>
     </div> <!-- end of header .row -->
