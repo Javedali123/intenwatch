@@ -4,7 +4,6 @@ namespace App\Http\Controllers;
 
 
 use Illuminate\Http\Request;
-use Illuminate\Routing\Route;
 
 Use App\Http\Requests;
 use App\Post;
@@ -57,7 +56,7 @@ class PagesController extends Controller {
 
           session::flash('success', 'Your Email was Sent!');
 
-          return redirect()->url('/');
+        return redirect('/');
 
 
 
