@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-
+//models used
 use Illuminate\Http\Request;
 
 Use App\Http\Requests;
@@ -20,7 +20,6 @@ class PagesController extends Controller {
   public function getAbout() {
     $first = 'Javed';
     $last = 'Ali';
-
     $fullname = $first . " " . $last;
     $email = 'javedali@hotmail.co.uk';
     $data = [];
@@ -32,7 +31,7 @@ class PagesController extends Controller {
   Public function getContact() {
     return view('pages.contact');
   }
-
+//contact us email function
   public function postContact(Request $request) {
     $this->validate($request, [
       'email' => 'required|email',
@@ -40,27 +39,23 @@ class PagesController extends Controller {
       'message' => 'min:10'  ]);
 
       $data = array(
-        'email' => $request->email,
+      'email' => $request->email,
       'subject' => $request->subject,
-    'bodyMessage' => $request->message
+      'bodyMessage' => $request->message
 
 );
 
           Mail::send('emails.contact' , $data, function($message) use ($data){
             $message->from($data['email']);
-            $message->to('javedali@hotmail.co.uk');
+            $message->to('javedali@hotmail.co.uk');// emails from users will be sent here
             $message->subject($data['subject']);
 
 
           });
 
-          session::flash('success', 'Your Email was Sent!');
+          session::flash('success', 'Your Email was Sent!');// displays success message
+          return redirect('/'); // redirects to homepage
 
-        return redirect('/');
-
-
-
-
-  }
+   }
 
 }

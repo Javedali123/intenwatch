@@ -21,7 +21,8 @@ class PostsController extends Controller
     public function index()
     {
         // create a variable and store all the blog posts in it from the database
-        $posts = Post::orderBy('id', 'desc')->paginate(5);//orders post, only displays 5 posts per page
+        $posts = Post::orderBy('id', 'desc')->paginate(5); //orders post, only displays 5 posts per page
+
         // return a view and pass in the above variable
         return view('posts.index')->withPosts($posts);
     }
@@ -61,7 +62,7 @@ class PostsController extends Controller
 
         $post->save();
 
-        session::flash('success', 'The blog post was successfully saved!');
+        session::flash('success', 'The blog post was successfully saved!'); // success message
 
         // redirect to another page
 
@@ -77,6 +78,7 @@ class PostsController extends Controller
     public function show($id)
 
     {
+      // find posts and display all
         $post = Post::find($id);
         return view('posts.show')->withPost($post);
     }
@@ -91,7 +93,7 @@ class PostsController extends Controller
     {
         // find the post in the database and save as a variable
         $post = Post::find($id);
-        // return the view and pass in the variable we previously created
+        // return the view and pass in the variable previously created
         return view('posts.edit')->withPost($post);
     }
 

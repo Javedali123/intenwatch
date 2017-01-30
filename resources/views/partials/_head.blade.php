@@ -14,6 +14,8 @@ crossorigin="anonymous"><link href="css/bootstrap.min.css" rel="stylesheet">
 
 {{ Html::style('css/styles.css') }}
 
+
+
 @yield('stylesheets')
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->

@@ -7,15 +7,16 @@
       <div class="col-md-12">
         <div class="jumbotron">
           <h1>Welcome to my first Laravel Project</h1>
-          <p class="lead">Thank You for visiting. This is my first Laravel Website</p>
-          <p><a class="btn btn-primary btn-lg" href="#" role="button">Popular Post</a></p>
+          <p class="lead">Thank You for visiting my amazing Blogging web aplication, Laravel is Fantastic</p>
+
         </div>
       </div>
     </div> <!-- end of header .row -->
 
     <div class="row">
       <div class="col-md-8">
-        @foreach($posts as $post)
+
+        @foreach($posts as $post) <!--Displays latest posts, upto 300 characters-->
 
         <div class="post">
           <h3>{{ $post->title }}</h3>
@@ -23,14 +24,19 @@
           <a href="{{ url('blog/'.$post->slug) }}" class="btn btn-primary">Read More</a>
         </div>
 
-      <hr>
-    @endforeach
+        <hr>
+        @endforeach
 
 
     </div>
 
      <div class="col-md-3 col-md-offset-1">
-        <h2>Sidebar</h2>
+
+        <div class="jumbotron">
+          <h3>Latest Posts</h3>
+          <h3></h3>
+
+        </div>
        </div>
      </div>
   @endsection

@@ -1,5 +1,5 @@
 <!-- Default Bootstrap Navbar -->
-<nav class="navbar navbar-default">
+<nav class="navbar navbar-inverse bg-primary">
 <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
 <div class="navbar-header">
@@ -9,7 +9,7 @@
     <span class="icon-bar"></span>
     <span class="icon-bar"></span>
   </button>
-      <a class="navbar-brand" href="#">Laravel Blog</a>
+      <a class="navbar-brand" href="/">Javed's Blog</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -26,10 +26,10 @@
             <span class="caret"></span></a>
           <ul class="dropdown-menu">
             <li><a href="{{ route('posts.index') }}">Posts</a></li>
-            <li><a href="#">Another action</a></li>
-            <li><a href="#">Something else here</a></li>
+
+
             <li role="separator" class="divider"></li>
-            <li><a href="#"></a></li>
+            <li><a href="#">Close</a></li>
           </ul>
           @if (Auth::guest())
               <li><a href="{{ url('/login') }}">Login</a></li>
