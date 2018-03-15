@@ -5,7 +5,8 @@
 @section('content')
   <div class="row">
       <div class="col-md-12">
-        <div class="jumbotron">
+        <div class="jumbotron jumbotron-fluid">
+          <img src="canonlogo.png" alt="Mountain View" style="width:300px;height:200px;">
           <h1>Intenwatch.com</h1>
           <p class="lead">International Energy Watch</p>
 
