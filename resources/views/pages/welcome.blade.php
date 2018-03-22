@@ -19,15 +19,15 @@
 
   Your browser does not support the video tag.
 </video> -->
-       <img src="intenwatch.png" alt="Intenwatch Logo " style="width:350px;height:200px;">
-          <h1>Intenwatch.com</h1>
-          <p class="lead">International Energy Watch</p>
+       <!--<img src="intenwatch.png" alt="Intenwatch Logo " style="width:300px;height:150px;"> -->
+          <h1>What is Intenwatch?</h1>
+          <p class="lead">Intenwatch (International Energy Watch) is a system that uses the Raspberry Pi and is designed specifically to assist in the clear and easy understanding of the use and consumption of electricity. <br />
 
-        <br />
+<br />The Intenwatch system is designed to securely analyse your electricity consumption in near Real Time, in an efficient and economical way. Providing you with a clear and accurate understanding of what your electricity consumption is.
 
-          <p>
+<br /><br />Detailed reports and analysis of multiple unobtrusive sites are created in real time, and can be accessed via a mobile or web application, or even delivered right to your email box.</p>
 
-          </p> </p>
+
 
         </div>
       </div>

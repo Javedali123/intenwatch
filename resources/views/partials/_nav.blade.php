@@ -1,5 +1,47 @@
 <!-- Default Bootstrap Navbar -->
-<nav class="navbar navbar-inverse bg-primary">
+<div class="row">
+    <div class="col-md-12">
+
+
+
+        <style>
+        img {
+            float: left;
+        }
+        </style>
+
+      <!--  <video width="320" height="240" autoplay loop>
+<source src="IntenwatchSpinLogo.mp4" type="video/mp4" />
+
+Your browser does not support the video tag.
+</video> -->
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-twitter"></a>
+<a href="#" class="fa fa-google"></a>
+<a href="#" class="fa fa-youtube"></a>
+     <img src="intenwatch.png" alt="Intenwatch Logo " style="width:300px;height:150px;">
+        <h1>Intenwatch.com</h1>
+        <p class="lead">International Energy Watch</p>
+    
+
+      </div>
+    </div>
+  </div> <!-- end of header .row -->
+
+  <div class="row">
+    <div class="col-md-8">
+
+
+
+
+  </div>
+
+
+     </div>
+   </div>
+
+<nav class="navbar navbar-dark bg-dark" style="background-color: #32CD32;">
+<!--<nav class="navbar navbar-inverse bg-primary">-->
 <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
 <div class="navbar-header">
