@@ -31,6 +31,10 @@ class PagesController extends Controller {
   Public function getContact() {
     return view('pages.contact');
   }
+
+    Public function getMission() {
+      return view('pages.mission');
+  }
 //contact us email function
   public function postContact(Request $request) {
     $this->validate($request, [

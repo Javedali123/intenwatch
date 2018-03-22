@@ -1,24 +1,22 @@
 <!-- Default Bootstrap Navbar -->
 <div class="row" style="background:#90EE90;">
     <div class="col-md-12">
-
-
-
-        <style>
+      <style>
         img {
             float: left;
         }
-        </style>
+      </style>
 
       <!--  <video width="320" height="240" autoplay loop>
 <source src="IntenwatchSpinLogo.mp4" type="video/mp4" />
 
 Your browser does not support the video tag.
 </video> -->
-<a href="https://www.facebook.com/Intenwatchcom-276893569513719/" class="fa fa-facebook"></a>
-<a href="https://twitter.com/intenwatch22318" class="fa fa-twitter"></a>
-<a href="https://plus.google.com/u/0/" class="fa fa-google"></a>
-<a href="https://www.youtube.com/channel/UCvSKcbxeX3sJ7jyBfr4PeCw?view_as=subscriber" class="fa fa-youtube"></a>
+    <a href="https://www.facebook.com/Intenwatchcom-276893569513719/" class="fa fa-facebook"></a>
+    <a href="https://twitter.com/intenwatch22318" class="fa fa-twitter"></a>
+    <a href="https://plus.google.com/u/0/" class="fa fa-google"></a>
+    <a href="https://www.youtube.com/channel/UCvSKcbxeX3sJ7jyBfr4PeCw?view_as=subscriber" class="fa fa-youtube"></a>
+
      <img src="intenwatch.png" alt="Intenwatch Logo " style="width:300px;height:150px;">
         <h2>Intenwatch.com</h2>
         <p class="lead">International Energy Watch</p>
@@ -42,15 +40,15 @@ Your browser does not support the video tag.
 
 <nav class="navbar navbar-inverse bg-dark">
 <!--<nav class="navbar navbar-inverse bg-primary">-->
-<div class="container-fluid">
+  <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
-<div class="navbar-header">
-  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-    <span class="sr-only">Toggle navigation</span>
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-  </button>
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
       <a class="navbar-brand" href="/">Intenwatch</a>
     </div>
 
@@ -59,6 +57,7 @@ Your browser does not support the video tag.
    <ul class="nav navbar-nav">
      <li class="{{ Request::is('/') ? "active" : "" }}"><a href="/">Home</a></li>
      <li class="{{ Request::is('blog') ? "active" : "" }}"><a href="/blog">Blog</a></li>
+     <li class="{{ Request::is('mission') ? "active" : "" }}"><a href="/mission">Mission</a></li>
      <li class="{{ Request::is('about') ? "active" : "" }}"><a href="/about">About</a></li>
      <li class="{{ Request::is('contact') ? "active" : "" }}"><a href="/contact">Contact</a></li>
    </ul>

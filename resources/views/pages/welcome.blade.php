@@ -6,30 +6,20 @@
   <div class="row">
       <div class="col-md-12">
         <div class="jumbotron jumbotron-fluid" style="background-color:#90EE90">
+          <h1 class="display-4">What is Intenwatch?</h1>
+           <hr class="my-4">
+          <p class="lead">
+            Intenwatch (International Energy Watch) is a system that uses the Raspberry Pi and is designed specifically to assist in the clear and easy understanding of the use and consumption of electricity.
+              <br />
+              <hr class="my-4">
 
+              <p class="lead">
+              The Intenwatch system is designed to securely analyse your electricity consumption in near Real Time, in an efficient and economical way. Providing you with a clear and accurate understanding of what your electricity consumption is.</p>
+              <hr class="my-4">
 
-          <style>
-          img {
-              float: left;
-          }
-          </style>
-
-        <!--  <video width="320" height="240" autoplay loop>
-  <source src="IntenwatchSpinLogo.mp4" type="video/mp4" />
-
-  Your browser does not support the video tag.
-</video> -->
-       <!--<img src="intenwatch.png" alt="Intenwatch Logo " style="width:300px;height:150px;"> -->
-          <h1>What is Intenwatch?</h1>
-          <p class="lead">Intenwatch (International Energy Watch) is a system that uses the Raspberry Pi and is designed specifically to assist in the clear and easy understanding of the use and consumption of electricity. <br />
-
-<br />The Intenwatch system is designed to securely analyse your electricity consumption in near Real Time, in an efficient and economical way. Providing you with a clear and accurate understanding of what your electricity consumption is.
-
-<br /><br />Detailed reports and analysis of multiple unobtrusive sites are created in real time, and can be accessed via a mobile or web application, or even delivered right to your email box.</p>
-
-
-
-        </div>
+              <p class="lead">
+              Detailed reports and analysis of multiple unobtrusive sites are created in real time, and can be accessed via a mobile or web application, or even delivered right to your email box.</p>
+          </div>
       </div>
     </div> <!-- end of header .row -->
 
@@ -46,16 +36,12 @@
 
         <hr>
         @endforeach
-
-
-    </div>
+      </div>
 
      <div class="col-md-3 col-md-offset-1">
-
-        <div class="jumbotron">
+       <div class="jumbotron">
           <h3>Latest News</h3>
           <h3></h3>
-
         </div>
        </div>
      </div>
