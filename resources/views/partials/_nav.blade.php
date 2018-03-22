@@ -1,5 +1,5 @@
 <!-- Default Bootstrap Navbar -->
-<div class="row">
+<div class="row" style="background:#90EE90;">
     <div class="col-md-12">
 
 
@@ -15,14 +15,14 @@
 
 Your browser does not support the video tag.
 </video> -->
-<a href="#" class="fa fa-facebook"></a>
-<a href="#" class="fa fa-twitter"></a>
-<a href="#" class="fa fa-google"></a>
-<a href="#" class="fa fa-youtube"></a>
+<a href="https://www.facebook.com/Intenwatchcom-276893569513719/" class="fa fa-facebook"></a>
+<a href="https://twitter.com/intenwatch22318" class="fa fa-twitter"></a>
+<a href="https://plus.google.com/u/0/" class="fa fa-google"></a>
+<a href="https://www.youtube.com/channel/UCvSKcbxeX3sJ7jyBfr4PeCw?view_as=subscriber" class="fa fa-youtube"></a>
      <img src="intenwatch.png" alt="Intenwatch Logo " style="width:300px;height:150px;">
-        <h1>Intenwatch.com</h1>
+        <h2>Intenwatch.com</h2>
         <p class="lead">International Energy Watch</p>
-    
+
 
       </div>
     </div>
@@ -40,7 +40,7 @@ Your browser does not support the video tag.
      </div>
    </div>
 
-<nav class="navbar navbar-dark bg-dark" style="background-color: #32CD32;">
+<nav class="navbar navbar-inverse bg-dark">
 <!--<nav class="navbar navbar-inverse bg-primary">-->
 <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->

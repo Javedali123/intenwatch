@@ -5,7 +5,7 @@
 @section('content')
   <div class="row">
       <div class="col-md-12">
-        <div class="jumbotron jumbotron-fluid" style="background-color:#32CD32">
+        <div class="jumbotron jumbotron-fluid" style="background-color:#90EE90">
 
 
           <style>
