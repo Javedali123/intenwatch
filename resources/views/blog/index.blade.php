@@ -6,9 +6,12 @@
 
   <div class="row">
     <div class="col-md-12">
-      <h1>Intenwacth Blog</h1>
+      <h1>Intenwatch Blog</h1>
     </div>
   </div>
+
+  <hr />
+
 
   @foreach ($posts as $post)
 

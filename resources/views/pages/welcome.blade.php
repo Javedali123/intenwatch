@@ -7,7 +7,7 @@
   <div class="row">
       <div class="col-md-12">
         <div class="jumbotron jumbotron-fluid" style="background-color:#e2edff">
-          <h1 class="display-4">What is Intenwatch?</h1>
+          <h2 class="display-4">What is Intenwatch?</h2>
            <hr class="my-4">
           <p class="lead">
             Intenwatch (International Energy Watch) is a system that uses the Raspberry Pi and is designed specifically to assist in the clear and easy understanding of the use and consumption of electricity.
