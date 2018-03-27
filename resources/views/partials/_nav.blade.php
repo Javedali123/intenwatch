@@ -1,5 +1,5 @@
 <!-- Default Bootstrap Navbar -->
-<div class="row" style="background:#90EE90;">
+<div class="row" style="background:#e2edff;">
     <div class="col-md-12">
       <style>
         img {
