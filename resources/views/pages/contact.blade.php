@@ -4,9 +4,12 @@
 
 @section('content')
 
+  <br />
     <div class="row">
       <div class="col-md-12">
-        <h1>Contact Us</h1>
+        <div class="jumbotron jumbotron-fluid" style="background-color:#e2edff">
+
+        <h2>Contact Us</h2>
         <hr>
         <form action="{{ url('contact') }}" method= "POST">
           {{ csrf_field() }}
@@ -30,6 +33,7 @@
         </form>
 
         <br/>
+        <hr>
 
         <p>
           Intenwatch Ltd
@@ -46,4 +50,6 @@
     </div>
       </div>
     </div>
+  </div>
+</div>
 @endsection
