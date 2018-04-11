@@ -39,6 +39,10 @@ class PagesController extends Controller {
   Public function getPresentations() {
     return view('pages.presentations');
 }
+
+  Public function getAffiliates() {
+    return view('pages.affiliates');
+}
 //contact us email function
   public function postContact(Request $request) {
     $this->validate($request, [

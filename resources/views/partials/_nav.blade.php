@@ -1,3 +1,5 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
 <!-- Default Bootstrap Navbar -->
 <div class="row" style="background:#e2edff;">
     <div class="col-md-12">
@@ -61,6 +63,7 @@ Your browser does not support the video tag.
      <li class="{{ Request::is('mission') ? "active" : "" }}"><a href="/mission">Mission</a></li>
      <li class="{{ Request::is('about') ? "active" : "" }}"><a href="/about">About</a></li>
      <li class="{{ Request::is('contact') ? "active" : "" }}"><a href="/contact">Contact</a></li>
+      <li class="{{ Request::is('affiliates') ? "active" : "" }}"><a href="/affiliates">Affiliates</a></li>
    </ul>
    <ul class="nav navbar-nav navbar-right">
      <li class="dropdown">

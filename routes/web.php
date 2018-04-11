@@ -20,6 +20,7 @@ Route::post('contact', 'PagesController@postContact');
 Route::get('about', 'PagesController@getAbout');
 Route::get('mission', 'PagesController@getMission');
 Route::get('presentations', 'PagesController@getPresentations');
+Route::get('affiliates', 'PagesController@getAffiliates');
 
 Route::get('/', 'PagesController@getIndex');
 
