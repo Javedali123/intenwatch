@@ -40,8 +40,8 @@
       </div>
 
      <div class="col-md-3 col-md-offset-1">
-       <div class="jumbotron">
-          <h3>Latest News</h3>
+       <div class="jumbotron" style="background-color:#e2edff">
+          <h3>Latest Posts</h3>
           <h3></h3>
         </div>
        </div>
