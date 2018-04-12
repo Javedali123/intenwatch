@@ -123,7 +123,9 @@ style="margin: 0 2em 0 0em; padding:1px;border:1px solid black;"></iframe>
                         <hr />
                         <br />
                         <br />
-
+<h2 class="display-4">Case Studies</h2>
+<hr />
+<a href="casestudiesr2.pdf">Download Case Study</a>
           </div>
       </div>
     </div> <!-- end of header .row -->
