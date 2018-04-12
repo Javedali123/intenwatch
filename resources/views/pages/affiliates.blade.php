@@ -67,7 +67,7 @@
 
           <hr />
           <a href="http://www.cannon-electrical.co.uk/">
-            <img src="cannonlogo2.png" alt="cannon electrical Logo " style="width:200px;height:50px;">
+            <img src="cannon3.png" alt="cannon electrical Logo " style="width:200px;height:50px;">
           </a>
           <br />
           <br />
