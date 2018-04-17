@@ -63,6 +63,7 @@ Your browser does not support the video tag.
         <li class="{{ Request::is('about') ? "active" : "" }}"><a href="/about">About</a></li>
         <li class="{{ Request::is('contact') ? "active" : "" }}"><a href="/contact">Contact</a></li>
         <li class="{{ Request::is('affiliates') ? "active" : "" }}"><a href="/affiliates">Affiliates</a></li>
+        <li class="{{ Request::is('clientlogin') ? "active" : "" }}"><a href="http://www.client.intenwatch.com/customer/clients/">Client Login</a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
         <li class="dropdown">
