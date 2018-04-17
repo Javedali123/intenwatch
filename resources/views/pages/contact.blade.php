@@ -45,8 +45,22 @@
         <div class="row">
           <div class="col-md-12">
         <iframe width="600" height="450" frameborder="0" style="border:0"
-        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJnytqUMZeeUgRXVwU7eBVbfI&key=AIzaSyDsx_GQNQZqrCbUKe_H08ehATq6GCtOWRc" allowfullscreen></iframe>
+        src="https://www.google.com/maps/embed/v1/place?q=place_id:ChIJnytqUMZeeUgRXVwU7eBVbfI&key=AIzaSyDsx_GQNQZqrCbUKe_H08ehATq6GCtOWRc" allowfullscreen>
+          </iframe>
+          <br />
+          <hr>
+          <p>
+            Intenwatch China Office
+            <br />10 Dajiang Road
+            <br />Nanjing 210039
+            <br />China
+          </p>
+
+        <iframe width="600" height="450" frameborder="0" style="border:0"
+        src="https://www.google.com/maps/embed/v1/search?q=Nanjing%2C%20Jiangsu%2C%20China&key=AIzaSyDsx_GQNQZqrCbUKe_H08ehATq6GCtOWRc" allowfullscreen></iframe>
+
       </div>
+
     </div>
       </div>
     </div>
