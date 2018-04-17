@@ -9,17 +9,26 @@
         <div class="jumbotron jumbotron-fluid" style="background-color:#e2edff">
           <h2 class="display-4">What is Intenwatch?</h2>
            <hr class="my-4">
-          <p class="lead">
-            Intenwatch (International Energy Watch) is a system that uses the Raspberry Pi and is designed specifically to assist in the clear and easy understanding of the use and consumption of electricity.
+
+            <p align="justify" class="lead">
+            Intenwatch (International Energy Watch) is a system that uses the Raspberry Pi and is designed specifically to assist
+            in the clear and easy understanding of the use and consumption of electricity.
+
               <br />
               <hr class="my-4">
 
-              <p class="lead">
-              The Intenwatch system is designed to securely analyse your electricity consumption in near Real Time, in an efficient and economical way. Providing you with a clear and accurate understanding of what your electricity consumption is.</p>
+              <p align="justify" class="lead">
+                The Intenwatch system is designed to securely analyse your electricity consumption in near Real Time,
+                in an efficient and economical way. Providing you with a clear and accurate understanding of what your electricity
+                consumption is.
+              </p>
+
               <hr class="my-4">
 
-              <p class="lead">
-              Detailed reports and analysis of multiple unobtrusive sites are created in real time, and can be accessed via a mobile or web application, or even delivered right to your email box.</p>
+              <p align="justify" class="lead">
+                Detailed reports and analysis of multiple unobtrusive sites are created in real time, and can be accessed via
+                a mobile or web application, or even delivered right to your email box.
+              </p>
           </div>
       </div>
     </div> <!-- end of header .row -->

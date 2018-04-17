@@ -15,11 +15,12 @@
              }
            </style>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/1sTKb9Vjkek"
+        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen;
+        style="margin: 0 2em 0 0em; padding:1px;border:1px solid black;" ></iframe>
 
-        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen; style="margin: 0 2em 0 0em; padding:1px;border:1px solid black;" ></iframe>
-
-<h2> What is a Raspberry Pi? </h2>
-        <p class="lead">
+        <h2> What is a Raspberry Pi? </h2>
+        <hr />
+        <p align="justify" class="lead">
           The Raspberry Pi is a credit-card-sized computer that plugs into your TV and a keyboard.
           It is a capable little computer which can be used in electronics projects, and for many of the things that
           your desktop PC does,
@@ -30,102 +31,92 @@
 <hr />
 <br />
         <iframe width="560" height="315" src="https://www.youtube.com/embed/kVXtsvIUQ_Y"
-
         frameborder="0" allow="autoplay; encrypted-media" allowfullscreen
-
         style="margin: 0 2em 0 0em; padding:1px;border:1px solid black;"></iframe>
 
         <h2> Intenwatch Version 6 </h2>
                 <p class="lead">
-
-
                 </p>
 
-                <br />
-                <hr />
-                <br />
-                <br />
-                <hr />
-                <br />
-                <br />
-                <hr />
-                <br />
-                <br />
+<br />
+<hr />
+<br />
+<br />
+<hr />
+<br />
+<br />
+<hr />
+<br />
+<br />
+<br />
 
-                <br />
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Y5GfeC1QSgU"
+        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen
+        style="margin: 0 2em 0 0em; padding:1px;border:1px solid black;"></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/Y5GfeC1QSgU"
-
-frameborder="0" allow="autoplay; encrypted-media" allowfullscreen
-
-style="margin: 0 2em 0 0em; padding:1px;border:1px solid black;"></iframe>
-
-<h2> Intenwatch Harmonics Presentation Video </h2>
+        <h2> Intenwatch Harmonics Presentation Video </h2>
         <p class="lead">
-
 
         </p>
 
-        <br />
-        <hr />
-        <br />
-        <br />
-        <hr />
-        <br />
-        <br />
-        <hr />
-        <br />
-        <br />
+<br />
+<hr />
+<br />
+<br />
+<hr />
+<br />
+<br />
+<hr />
+<br />
+<br />
 
 
 
         <iframe width="560" height="315" src="https://www.youtube.com/embed/fByLurHh8ow"
-
         frameborder="0" allow="autoplay; encrypted-media" allowfullscreen
-
         style="margin: 0 2em 0 0em; padding:1px;border:1px solid black;"></iframe>
 
-        <h2> Intenwatch Harmonics Presentation Video </h2>
+        <h2> Intenwatch Smart Electrical Meter Presentation </h2>
                 <p class="lead">
 
 
                 </p>
 
-                <br />
-                <hr />
-                <br />
-                <br />
-                <hr />
-                <br />
-                <br />
-                <hr />
-                <br />
-                <br />
-
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/SXUdvzzWTJI"
-
-                frameborder="0" allow="autoplay; encrypted-media" allowfullscreen
-
-                style="margin: 0 2em 0 0em; padding:1px;border:1px solid black;"></iframe>
-                <h2> Intenwatch Harmonics Presentation Video </h2>
-                        <p class="lead">
-
-
-                        </p>
-
-                        <br />
-                        <hr />
-                        <br />
-                        <br />
-                        <hr />
-                        <br />
-                        <br />
-                        <hr />
-                        <br />
-                        <br />
-<h2 class="display-4">Case Studies</h2>
+<br />
 <hr />
-<a href="casestudiesr2.pdf">Download Case Study</a>
+<br />
+<br />
+<hr />
+<br />
+<br />
+<hr />
+<br />
+<br />
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SXUdvzzWTJI"
+        frameborder="0" allow="autoplay; encrypted-media" allowfullscreen
+        style="margin: 0 2em 0 0em; padding:1px;border:1px solid black;"></iframe>
+
+          <h2> Intenwatch Raspberry Pi Traffic Light Control System </h2>
+            <p class="lead">
+            </p>
+
+<br />
+<hr />
+<br />
+<br />
+<hr />
+<br />
+<br />
+<hr />
+<br />
+<br />
+
+        <h2 class="display-4">Case Studies</h2>
+        <hr />
+          <a href="casestudiesr2.pdf">Download Case Study
+
+          </a>
           </div>
       </div>
     </div> <!-- end of header .row -->
